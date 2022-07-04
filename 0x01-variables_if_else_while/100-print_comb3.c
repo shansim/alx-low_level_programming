@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *main -> contains all code
  *Return : always 0
