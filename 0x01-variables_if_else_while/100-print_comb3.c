@@ -1,17 +1,19 @@
 #include <stdio.h>
 /**
- * Return : always 0
+ *main -> contains all code
+ *Return : always 0
  */
 
 int main(void)
 {
 int ch;
 int n;
-for(ch = 48; ch <= 57; ch++)
+for (ch = 48; ch <= 57; ch++)
 {
 for (n = 49; n <= 57; n++)
 {
-if (n > ch){
+if (n > ch)
+{
 putchar(ch);
 putchar(n);
 if (ch != 56 || n != 57)
