@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -19,7 +19,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 
-		if (n > 0)
+		if (i < n - 1)
 		{
 			printf(", ");
 		}
