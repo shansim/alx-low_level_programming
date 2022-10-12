@@ -2,7 +2,7 @@
 
 /**
  *
- * * main - Prints name of compilation file with new line
+ * * main : Prints name of compilation file with new line
  *
  * * Return: 0
  *
