@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 #include "variadic_functions.h"
 
@@ -34,7 +34,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		if (ptr == NULL)
 
+		{
+
 			printf("(nil)");
+
+		}
 
 		else
 
@@ -44,7 +48,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 			if (i < n - 1 && separator != NULL)
 
+			{
+
 				printf("%s", separator);
+
+			}
 
 		}
 
@@ -54,4 +62,4 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	printf("\n");
 
-
+}
