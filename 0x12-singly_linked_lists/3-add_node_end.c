@@ -16,7 +16,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (!new)
 		return (NULL);
 	dup_str = strdup(str);
-	if(!str)
+	if (!str)
 	{
 		free(new);
 		return (NULL);
@@ -26,7 +26,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	new->len = strlen(str);
 	new->next = NULL;
 
-	if(!*head)
+	if (!*head)
 	{
 		*head = new;
 	}
