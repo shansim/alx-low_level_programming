@@ -14,6 +14,7 @@ unsigned int binary_to_uint(const char *b)
 
 	if (b == NULL)
 		return (0);
+	
 	for (; *(b + i); i++)
 	{
 		val = val << 1;
