@@ -9,6 +9,7 @@
 int _atoi(char *s)
 {
 	unsigned int len = 0, size = 0, oi = 0, sign = 1, m = 1, i;
+
 	while (*(s + len))
 	{
 		if (size > 0 && (*(s + len) < '0' || *(s + len) > '9'))
