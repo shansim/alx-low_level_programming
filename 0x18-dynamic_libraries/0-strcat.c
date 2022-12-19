@@ -6,7 +6,6 @@
  * @src: second parameter
  * Return: a string
  */
-
 char *_strcat(char *dest, char *src)
 {
 	int len = 0, i;
@@ -15,6 +14,7 @@ char *_strcat(char *dest, char *src)
 	{
 		len++;
 	}
+
 	for (i = 0; src[i] != 0; i++)
 	{
 		dest[len] = src[i];

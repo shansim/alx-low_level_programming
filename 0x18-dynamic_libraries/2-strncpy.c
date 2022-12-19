@@ -8,7 +8,6 @@
  * @n: 3rd param
  * Return: a string
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
 	strncpy(dest, src, n);

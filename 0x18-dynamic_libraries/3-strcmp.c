@@ -7,7 +7,6 @@
  * @s2: param2
  * Return: interger
  */
-
 int _strcmp(char *s1, char *s2)
 {
 	int result;

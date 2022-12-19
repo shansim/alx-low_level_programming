@@ -5,7 +5,6 @@
  *@src: String to be evaluate.
  *Return: null
  */
-
 char *_strcpy(char *dest, char *src)
 {
 	int len = 0;
