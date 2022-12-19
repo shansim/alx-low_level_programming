@@ -1,1 +1,1 @@
-# Repository for C- Structures, typedef
+Assignment on 0x0E-structures_typedef
