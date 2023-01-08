@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strstr - function that loocates substring
  * @haystack: Pointer to string location

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## A repository containg Hash Tables and Functions algorithm
 
 #What is a HarshTable Data Structure?
@@ -17,3 +18,6 @@
 **Author: [Shannon Simiyu](https://www.linkedin.com/in/shannon-simiyu-660360200/)**
 
 *ALX school - 2022 Cohort 9*
+=======
+This is an assignment on 0x1A-hash_tables
+>>>>>>> 28c773513a0b54849daaaff68849163994d1bf87
