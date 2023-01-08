@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 ## A repository containg Hash Tables and Functions algorithm
 
-#What is a HarshTable Data Structure?
+## What is a HarshTable Data Structure?
 
 - A hash function is a function that takes an input (called the "key") and maps it to an integer value (called the "hash value"), which is used to index an array (called the "hash table"). The main purpose of a hash function is to distribute the keys uniformly across the array, so that key-value pairs can be stored and retrieved efficiently.
 
@@ -20,4 +19,3 @@
 *ALX school - 2022 Cohort 9*
 =======
 This is an assignment on 0x1A-hash_tables
->>>>>>> 28c773513a0b54849daaaff68849163994d1bf87
